@@ -1,0 +1,46 @@
+GET http://localhost:3000/subscribers
+
+###
+GET http://localhost:3000/subscribers/6254b2b06362966f020283e3
+
+
+
+
+
+
+
+
+###
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Ömer Faruk Yapıcı",
+    "subscribedToChannel": "DeveloperOmerFaruk"
+}
+
+
+
+
+
+
+
+
+###
+DELETE http://localhost:3000/subscribers/6254b2b06362966f020283e3
+
+
+
+
+
+
+
+
+
+### 
+PATCH http://localhost:3000/subscribers/6254b2b06362966f020283e3
+Content-Type: application/json
+
+{
+    "name": "New Name"
+}
